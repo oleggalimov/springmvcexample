@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for mvcexample" enabled="true">
+        <sourceOutputDir name="../../../../apache-tomcat-9.0.5/apache-tomcat-9.0.5/webapps/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../apache-tomcat-9.0.5/apache-tomcat-9.0.5/webapps/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mvcexample" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mvcexample" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
