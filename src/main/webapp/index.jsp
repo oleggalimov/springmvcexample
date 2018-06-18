@@ -41,7 +41,7 @@
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <a class="dropdown-item" href="http://www.google.com">Google</a>
             <a class="dropdown-item" href="getdate">Текущее время</a>
-            <a class="dropdown-item" href="parrot">Хеш строки</a>
+            <a class="dropdown-item" href="parrot">MD5 шифровальщик</a>
           </div>
         </li>
         <li class="nav-item">
@@ -92,6 +92,8 @@
                 </tr> -->
             </tbody>
           </table>
+          <br/>
+          Все сервисы доступные по ссылкам в группе "Сервисы" вверху страницы
           </div>
 
   </main>
