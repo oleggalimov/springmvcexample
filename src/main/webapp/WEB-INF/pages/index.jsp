@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+
   <link rel="icon" href="static/icon/favicon.ico">
 
-  <title>О проекте</title>
+  <title>Главная страница</title>
 
   <!-- Bootstrap core CSS -->
   <link href="static/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@
 <body>
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Навигация</a>
+    <a class="navbar-brand" href="#">Проект</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,23 +29,23 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.jsp">Домашняя страница
+          <a class="nav-link" href="index.jsp">ГЛавная
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/oleggalimov/springmvcexample">Репозиторий проекта</a>
+          <a class="nav-link" href="https://github.com/oleggalimov/springmvcexample">??????????? ???????</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Сервисы</a>
+            <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">???????</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="http://www.google.com">Google</a>
-              <a class="dropdown-item" href="getdate">Текущее время</a>
-              <a class="dropdown-item" href="parrot">Хеш строки</a>
+              <a class="dropdown-item" href="getdate">??????? ?????</a>
+              <a class="dropdown-item" href="parrot">??? ??????</a>
             </div>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="about">О проекте</a>
+            <a class="nav-link" href="about">? ???????</a>
           </li>
       </ul>
     </div>
@@ -55,14 +55,15 @@
     <br/>
       <div class="container-fluid">
         <p>
-
+            ???? ?????? ?????? ??? ????????? ??? ???????? web-??????????. ?? ?????? ?? ?????? spring-webmvc (5.0.6.RELEASE). ? ???????? ????????????? ??????????? ????? - ??????????? JSP ? ??????????? Bootstrap.
+            <br/>?? ???? ???????? ?? ?????? ?????????? ? <a href="mailto:o.d.galimov@yandex.ru">?????? ???????.</a>
         </p>
       </div>
 
   </main>
 
   <footer class="container">
-    <p>&copy; Олег Галимов, 2018<br/>o.d.galimov@yandex.ru</p>
+    <p>&copy; ???? ???????, 2018<br/>o.d.galimov@yandex.ru</p>
   </footer>
 
   <!-- Bootstrap core JavaScript

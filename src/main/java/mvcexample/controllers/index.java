@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class about {
-    @RequestMapping (value = "/about",  method = RequestMethod.GET)
-    public String getAboutPage () {
-        return "about";
+public class index {
+    @RequestMapping (value = "/",  method = RequestMethod.GET, produces = "text/html;charset=utf-8")
+    public String getIndexPage () {
+        return "index";
     }
 }
