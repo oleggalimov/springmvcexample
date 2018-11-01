@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class index {
-    @RequestMapping (value = "/",  method = RequestMethod.GET, produces = "text/html;charset=utf-8")
+    @RequestMapping (value = "/index",  method = RequestMethod.GET)
     public String getIndexPage () {
         return "index";
     }
