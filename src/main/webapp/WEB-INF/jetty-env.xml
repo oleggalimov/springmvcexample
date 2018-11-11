@@ -1,0 +1,19 @@
+<Configure id='wac' class="org.eclipse.jetty.webapp.WebAppContext">
+    <!--<New id="cf" class="org.eclipse.jetty.plus.jndi.Resource">-->
+        <!--<Arg><Ref refid='wac'/></Arg>-->
+        <!--<Arg>jms/connectionFactory</Arg>-->
+        <!--<Arg>-->
+            <!--<New class="javax.jms.QueueConnectionFactory">-->
+                <!--<Arg>vm://localhost?broker.persistent=false</Arg>-->
+            <!--</New>-->
+        <!--</Arg>-->
+    <!--</New>-->
+
+    <New class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg></Arg>
+        <Arg>jms/connectionFactory</Arg>
+        <Arg >factory</Arg>
+    </New>
+
+</Configure>
+
